@@ -17,10 +17,10 @@ ehthumbs.db
 
 # ===========================
 # AI Agent Tool Configs
-# (local session data — not meant to be shared)
+# (not meant to be shared)
 # ===========================
-.claude/hooks/
-.codex/hooks/
+.claude/
+.codex/
 
 # ===========================
 # Reports & Temp Output

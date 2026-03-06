@@ -1,3 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="36" viewBox="0 0 280 36">
-  <text x="0" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" letter-spacing="2" fill="#ffffff">Shubhhh</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="40" viewBox="0 0 320 40">
+<style>
+text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  fill: #000;
+}
+@media (prefers-color-scheme: dark) {
+  text { fill: #ffffff; }
+}
+</style>
+<text x="0" y="30">Shubhhh</text>
 </svg>

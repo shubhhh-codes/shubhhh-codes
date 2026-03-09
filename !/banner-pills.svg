@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 750 130">
+
+  <defs>
+    <linearGradient id="animatedBorder" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a5d6ff"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+      <animateTransform 
+        attributeName="gradientTransform"
+        type="translate"
+        from="-1 0"
+        to="1 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#58a6ff" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .pill {
+      fill: #21262d;
+      stroke: url(#animatedBorder);
+      stroke-width: 2.3;
+      filter: url(#glow);
+    }
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      fill: #f0f6fc;
+      font-weight: 600;
+    }
+  </style>
+
+  <!-- ROW 1 -->
+  <g transform="translate(10,25)">
+    
+    <g>
+      <rect class="pill" rx="22" width="170" height="40"/>
+      <text class="text" x="85" y="25" text-anchor="middle">AI-First Development</text>
+    </g>
+
+    <g transform="translate(190,0)">
+      <rect class="pill" rx="22" width="165" height="40"/>
+      <text class="text" x="82" y="25" text-anchor="middle">Agentic Engineering</text>
+    </g>
+
+    <g transform="translate(370,0)">
+      <rect class="pill" rx="22" width="125" height="40"/>
+      <text class="text" x="62" y="25" text-anchor="middle">Claude Code</text>
+    </g>
+
+    <g transform="translate(510,0)">
+      <rect class="pill" rx="22" width="90" height="40"/>
+      <text class="text" x="45" y="25" text-anchor="middle">Codex</text>
+    </g>
+
+    <g transform="translate(615,0)">
+      <rect class="pill" rx="22" width="115" height="40"/>
+      <text class="text" x="57" y="25" text-anchor="middle">Antigravity</text>
+    </g>
+
+  </g>
+
+  <!-- ROW 2 -->
+  <g transform="translate(10,80)">
+    
+    <g>
+      <rect class="pill" rx="22" width="140" height="40"/>
+      <text class="text" x="70" y="25" text-anchor="middle">Java (OOP)</text>
+    </g>
+
+    <g transform="translate(160,0)">
+      <rect class="pill" rx="22" width="130" height="40"/>
+      <text class="text" x="65" y="25" text-anchor="middle">Git &amp; GitHub</text>
+    </g>
+
+    <g transform="translate(300,0)">
+      <rect class="pill" rx="22" width="120" height="40"/>
+      <text class="text" x="60" y="25" text-anchor="middle">Web Basics</text>
+    </g>
+
+    <g transform="translate(430,0)">
+      <rect class="pill" rx="22" width="140" height="40"/>
+      <text class="text" x="70" y="25" text-anchor="middle">Problem Solving</text>
+    </g>
+
+  </g>
+
+</svg>

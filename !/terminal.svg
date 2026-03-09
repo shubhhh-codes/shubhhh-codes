@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="60" viewBox="0 0 380 60">
+  <style>
+    .typing {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0ch;
+      animation: typing 4s steps(40) infinite;
+    }
+
+    @keyframes typing {
+      0% { width: 0ch; }
+      75% { width: 40ch; }   /* extra 1ch safe buffer */
+      87.5% { width: 40ch; }
+      100% { width: 0ch; }
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 9px;
+      height: 17px;
+      background: #a78bfa;
+      border-radius: 2px;
+      margin-left: 2px;
+      animation: blink 1.2s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%,60% { opacity: 1; }
+      70%,100% { opacity: 0; }
+    }
+  </style>
+
+  <rect width="380" height="60" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+
+  <circle cx="18" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="54" cy="15" r="5" fill="#27ca40"/>
+
+  <foreignObject x="20" y="28" width="340" height="25">
+    <div xmlns="http://www.w3.org/1999/xhtml"
+         style="font-family: monospace; font-size:14px; display:flex; align-items:center;">
+
+      <span style="color:#8b5cf6; margin-right:6px;">$</span>
+
+      <div class="typing" style="color:#24292f;">
+        i use claude code with Get Shit Done.
+      </div>
+
+      <div class="cursor"></div>
+
+    </div>
+  </foreignObject>
+</svg>

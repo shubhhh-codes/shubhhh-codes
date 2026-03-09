@@ -1,0 +1,47 @@
+# ===========================
+# OS & System Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ===========================
+# Editor & IDE Files
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ===========================
+# AI Agent Tool Configs
+# (not meant to be shared)
+# ===========================
+.claude/
+.codex/
+
+# ===========================
+# Reports & Temp Output
+# (auto-generated, not source)
+# ===========================
+reports/
+
+# ===========================
+# Logs & Temp Files
+# ===========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ===========================
+# Secrets
+# ===========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
